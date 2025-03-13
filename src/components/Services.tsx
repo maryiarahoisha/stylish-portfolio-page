@@ -89,6 +89,16 @@ const Services = () => {
                     <img src="/lovable-uploads/21c86a82-a86c-4ec5-8b18-fb56cda3dbda.png" alt="АЛЛО" className="h-14 object-contain" />
                   </div>
                 </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="h-32 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/76fdd837-27d5-4e4c-a0af-a10020417340.png" alt="MI.BY" className="h-16 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="h-32 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/a1efa31f-32ad-408d-9448-afaed77f98fc.png" alt="KUGEL" className="h-14 object-contain" />
+                  </div>
+                </CarouselItem>
               </CarouselContent>
             </Carousel>
           </div>
