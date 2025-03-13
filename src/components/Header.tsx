@@ -29,7 +29,12 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#" className="flex items-center gap-2">
+          <a 
+            href="https://manao-team.com/?utm_source=vizitka" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center gap-2"
+          >
             <img 
               src="/lovable-uploads/421f1ff8-620d-4e15-b5cf-1129ef81dcce.png" 
               alt="MANAO DEV Logo" 
