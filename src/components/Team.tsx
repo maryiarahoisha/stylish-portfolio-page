@@ -84,7 +84,7 @@ const Team = () => {
               nickname="ДИМА"
               name="ДМИТРИЙ ГРИНКЕВИЧ"
               position="Основатель, директор"
-              imageUrl="https://randomuser.me/api/portraits/men/32.jpg"
+              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/d3a/d3a4ec67a2ee04c2af67fc9dce43dc53/Dima_1x.jpg"
               index={0}
             />
             
@@ -92,7 +92,7 @@ const Team = () => {
               nickname="САША"
               name="АЛЕКСАНДРА ШАРОВА"
               position="Зам. директора по развитию"
-              imageUrl="https://randomuser.me/api/portraits/women/44.jpg"
+              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/ad9/ad95ea0b4b8edf13b8dcb9a56ab4d02d/Sasha_1x.jpg"
               index={1}
             />
             
@@ -100,7 +100,7 @@ const Team = () => {
               nickname="МАША"
               name="МАРИЯ САНТАЛОВА"
               position="Маркетолог"
-              imageUrl="https://randomuser.me/api/portraits/women/68.jpg"
+              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/e66/e6697bd1d6b95c00eba5a3a70ebf8ab2/Masha_1x.jpg"
               index={2}
             />
             
@@ -108,7 +108,7 @@ const Team = () => {
               nickname="ПАША"
               name="ПАВЕЛ ПЕНКРАТ"
               position="Технический директор"
-              imageUrl="https://randomuser.me/api/portraits/men/62.jpg"
+              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/0e5/0e52ab0e9ebcab2adaffb1f67b8b3d3a/Pasha_1x.jpg"
               email="p.penkrat@manao-team.com"
               index={3}
             />
@@ -117,7 +117,7 @@ const Team = () => {
               nickname="ТАНЯ"
               name="ТАТЬЯНА ГРЕЧАНИК"
               position="Проектный менеджер"
-              imageUrl="https://randomuser.me/api/portraits/women/17.jpg"
+              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/83a/83a7d62cb334dee1e5c1cbe0e1e7e761/Tanya_1x.jpg"
               email="t.grechanik@manao-team.com"
               index={4}
             />

@@ -15,32 +15,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-6 md:mb-0">
             <div className="text-manao-purple font-display flex items-center">
-              <svg 
+              <img 
+                src="https://cdn-ru.bitrix24.ru/b25909916/landing/1b6/1b6e6c58af96b0a642c4c1cfe00cc514/logo-symbol_1x.png" 
+                alt="MANAO Logo" 
                 width="32" 
                 height="32" 
-                viewBox="0 0 50 50" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path 
-                  d="M10 15L25 5L40 15L25 25L10 15Z" 
-                  fill="#9B30FF" 
-                />
-                <path 
-                  d="M10 35L25 25L40 35L25 45L10 35Z" 
-                  fill="#9B30FF" 
-                />
-                <path 
-                  d="M40 15V35" 
-                  stroke="#9B30FF" 
-                  strokeWidth="2" 
-                />
-                <path 
-                  d="M10 15V35" 
-                  stroke="#9B30FF" 
-                  strokeWidth="2" 
-                />
-              </svg>
+              />
               <span className="ml-2 text-lg font-bold">MANAO DEV</span>
             </div>
           </div>

@@ -31,32 +31,11 @@ const Header = () => {
         <div className="flex items-center">
           <a href="#" className="flex items-center gap-2">
             <div className="text-manao-purple font-display flex items-center">
-              <svg 
-                width="40" 
-                height="40" 
-                viewBox="0 0 50 50" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path 
-                  d="M10 15L25 5L40 15L25 25L10 15Z" 
-                  fill="#9B30FF" 
-                />
-                <path 
-                  d="M10 35L25 25L40 35L25 45L10 35Z" 
-                  fill="#9B30FF" 
-                />
-                <path 
-                  d="M40 15V35" 
-                  stroke="#9B30FF" 
-                  strokeWidth="2" 
-                />
-                <path 
-                  d="M10 15V35" 
-                  stroke="#9B30FF" 
-                  strokeWidth="2" 
-                />
-              </svg>
+              <img 
+                src="https://cdn-ru.bitrix24.ru/b25909916/landing/1b6/1b6e6c58af96b0a642c4c1cfe00cc514/logo-symbol_1x.png" 
+                alt="MANAO Logo" 
+                className="w-10 h-10"
+              />
               <span className="ml-2 text-xl font-bold">MANAO DEV</span>
             </div>
           </a>
