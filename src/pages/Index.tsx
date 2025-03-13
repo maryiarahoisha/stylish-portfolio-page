@@ -31,8 +31,7 @@ const Index = () => {
               
               <div className={`transition-all duration-700 delay-300 ${isLoaded ? 'opacity-100' : 'opacity-0 translate-y-12'}`}>
                 <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                  Разрабатываем и интегрируем сайты на 1С-Битрикс и других платформах. 
-                  Создаем сложные B2B-решения, автоматизируем процессы для вашего бизнеса.
+                  Улучшаем Битрикс24, разрабатываем и дорабатываем сайты на 1С-Битрикс, создаем сложные B2B-решения на фреймворках.
                 </p>
               </div>
               
