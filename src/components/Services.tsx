@@ -1,5 +1,12 @@
 
 import { useEffect, useRef } from "react";
+import { 
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious
+} from "@/components/ui/carousel";
 
 const Services = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -44,32 +51,55 @@ const Services = () => {
           <div className="mt-12 animate-on-scroll opacity-0">
             <h3 className="text-xl font-semibold mb-6">Наши клиенты</h3>
             
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/e2c70d25-6470-4a73-8e8f-1628083d256c.png" alt="ROAST" className="h-8 object-contain" />
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full max-w-5xl mx-auto"
+            >
+              <CarouselContent className="py-4">
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/e2c70d25-6470-4a73-8e8f-1628083d256c.png" alt="ROAST" className="h-8 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/2781b978-f1a8-440f-b207-5cd21b873011.png" alt="SANTE" className="h-12 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/a12d4da6-f416-4952-9a52-7ac2150a603b.png" alt="MULTISPORT" className="h-8 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/2e008d93-76c0-4048-91de-c437ccc0c915.png" alt="WINTERS.BY" className="h-12 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/f08adae9-5f28-4201-b01b-6dec25bc62a7.png" alt="ARTOX" className="h-8 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/03472ed3-9db8-4589-87d4-1a34a0f24eb0.png" alt="XISTORE" className="h-12 object-contain" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="partner-card filter-none h-24 flex items-center justify-center mx-2">
+                    <img src="/lovable-uploads/21c86a82-a86c-4ec5-8b18-fb56cda3dbda.png" alt="АЛЛО" className="h-8 object-contain" />
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <div className="flex justify-center mt-4">
+                <CarouselPrevious className="relative static left-0 translate-y-0 mr-2" />
+                <CarouselNext className="relative static right-0 translate-y-0 ml-2" />
               </div>
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/2781b978-f1a8-440f-b207-5cd21b873011.png" alt="SANTE" className="h-12 object-contain" />
-              </div>
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/a12d4da6-f416-4952-9a52-7ac2150a603b.png" alt="MULTISPORT" className="h-8 object-contain" />
-              </div>
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/2e008d93-76c0-4048-91de-c437ccc0c915.png" alt="WINTERS.BY" className="h-12 object-contain" />
-              </div>
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/f08adae9-5f28-4201-b01b-6dec25bc62a7.png" alt="ARTOX" className="h-8 object-contain" />
-              </div>
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/03472ed3-9db8-4589-87d4-1a34a0f24eb0.png" alt="XISTORE" className="h-12 object-contain" />
-              </div>
-              <div className="partner-card filter-none">
-                <img src="/lovable-uploads/21c86a82-a86c-4ec5-8b18-fb56cda3dbda.png" alt="АЛЛО" className="h-8 object-contain" />
-              </div>
-              <div className="partner-card filter-none">
-                <img src="https://cdn-ru.bitrix24.ru/b25909916/landing/37c/37c4b69a2797c8ef8ee9de6ef1a52aea/xistore_1x.png" alt="XISTORE" className="h-8 object-contain" />
-              </div>
-            </div>
+            </Carousel>
           </div>
         </div>
       </div>
