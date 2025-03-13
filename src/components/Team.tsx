@@ -100,7 +100,7 @@ const Team = () => {
               nickname="МАША"
               name="МАРИЯ САНТАЛОВА"
               position="Маркетолог"
-              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/e66/e6697bd1d6b95c00eba5a3a70ebf8ab2/Masha_1x.jpg"
+              imageUrl="/lovable-uploads/5a62ebe0-410f-44cd-ae57-f0d4f30662f2.png"
               index={2}
             />
             
