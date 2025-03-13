@@ -117,7 +117,7 @@ const Team = () => {
               nickname="ТАНЯ"
               name="ТАТЬЯНА ГРЕЧАНИК"
               position="Проектный менеджер"
-              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/83a/83a7d62cb334dee1e5c1cbe0e1e7e761/Tanya_1x.jpg"
+              imageUrl="/lovable-uploads/86605fab-5224-4e07-a951-670c0b407b32.png"
               email="t.grechanik@manao-team.com"
               index={4}
             />
