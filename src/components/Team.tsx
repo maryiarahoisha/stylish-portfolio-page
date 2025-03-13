@@ -108,7 +108,7 @@ const Team = () => {
               nickname="ПАША"
               name="ПАВЕЛ ПЕНКРАТ"
               position="Технический директор"
-              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/0e5/0e52ab0e9ebcab2adaffb1f67b8b3d3a/Pasha_1x.jpg"
+              imageUrl="/lovable-uploads/f6a1c8cf-0e13-4333-ba82-f494d5f11f95.png"
               email="p.penkrat@manao-team.com"
               index={3}
             />
