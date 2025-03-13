@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MessageCircle } from "lucide-react";
 
 const Contact = () => {
@@ -7,9 +6,8 @@ const Contact = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <div className="flex items-center justify-center mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold inline-flex items-center">
+            <h2 className="text-3xl md:text-4xl font-bold">
               СВЯЗАТЬСЯ С MANAO DEV
-              <span className="ml-2 h-px w-6 bg-white/50 block"></span>
             </h2>
           </div>
           
