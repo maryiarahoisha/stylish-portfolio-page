@@ -38,7 +38,7 @@ const Services = () => {
           
           <div className="space-y-6 mt-8">
             <p className="text-lg text-gray-700 animate-on-scroll opacity-0">
-              Улучшаем <span className="font-semibold">Битрикс24</span>, разрабатываем и дорабатываем сайты на <span className="font-semibold">1С-Битрикс</span>, создаем сложные B2B-решения на <span className="font-semibold">фреймворках</span>. Интегрируем сайты и CRM с 1С, платежными системами, маркетплейсами и другими сервисами, создавая единую экосистему.
+              Интегрируем сайты и CRM с 1С, платежными системами, маркетплейсами и другими сервисами, создавая единую экосистему.
             </p>
             
             <p className="text-lg text-gray-700 animate-on-scroll opacity-0">
