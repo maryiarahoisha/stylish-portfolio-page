@@ -69,7 +69,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                 >
                   <img 
-                    src="/lovable-uploads/2ad37250-d8cb-497b-b7b5-32335cff1385.png" 
+                    src="/lovable-uploads/b3c71aa7-e6e4-454f-ae71-ad874f2686ac.png" 
                     alt="Viber" 
                     className="w-6 h-6"
                   />
