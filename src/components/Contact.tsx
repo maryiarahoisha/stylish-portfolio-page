@@ -63,15 +63,15 @@ const Contact = () => {
                 </a>
                 <a 
                   href="viber://pa?chatURI=manao" 
-                  className="bg-[#7360f2] w-10 h-10 rounded-full flex items-center justify-center transition-transform hover:scale-110"
+                  className="transition-transform hover:scale-110"
                   aria-label="Viber"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img 
-                    src="/lovable-uploads/b3c71aa7-e6e4-454f-ae71-ad874f2686ac.png" 
+                    src="/lovable-uploads/c20eaead-65cf-440f-83a7-967491646a34.png" 
                     alt="Viber" 
-                    className="w-6 h-6"
+                    className="w-10 h-10"
                   />
                 </a>
               </div>
