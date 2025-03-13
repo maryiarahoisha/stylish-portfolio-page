@@ -1,3 +1,4 @@
+
 import * as React from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
@@ -9,7 +10,10 @@ import { Button } from "@/components/ui/button"
 
 type CarouselApi = UseEmblaCarouselType[1]
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
-type CarouselOptions = UseCarouselParameters[0]
+type CarouselOptions = UseCarouselParameters[0] & {
+  autoplay?: boolean
+  duration?: number
+}
 type CarouselPlugin = UseCarouselParameters[1]
 
 type CarouselProps = {
@@ -65,6 +69,17 @@ const Carousel = React.forwardRef<
     )
     const [canScrollPrev, setCanScrollPrev] = React.useState(false)
     const [canScrollNext, setCanScrollNext] = React.useState(false)
+    
+    // Setup autoplay
+    React.useEffect(() => {
+      if (!api || !opts?.autoplay) return;
+      
+      const interval = setInterval(() => {
+        api.scrollNext();
+      }, opts.duration || 2000);
+      
+      return () => clearInterval(interval);
+    }, [api, opts?.autoplay, opts?.duration]);
 
     const onSelect = React.useCallback((api: CarouselApi) => {
       if (!api) {
