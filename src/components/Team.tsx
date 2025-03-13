@@ -84,7 +84,7 @@ const Team = () => {
               nickname="ДИМА"
               name="ДМИТРИЙ ГРИНКЕВИЧ"
               position="Основатель, директор"
-              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/d3a/d3a4ec67a2ee04c2af67fc9dce43dc53/Dima_1x.jpg"
+              imageUrl="/lovable-uploads/bdbbc44f-459a-4f86-8c42-ad23cacbaac0.png"
               index={0}
             />
             
@@ -92,7 +92,7 @@ const Team = () => {
               nickname="САША"
               name="АЛЕКСАНДРА ШАРОВА"
               position="Зам. директора по развитию"
-              imageUrl="https://cdn-ru.bitrix24.ru/b25909916/landing/ad9/ad95ea0b4b8edf13b8dcb9a56ab4d02d/Sasha_1x.jpg"
+              imageUrl="/lovable-uploads/94dec6d6-4f01-4c9d-b5fc-c432dd478c13.png"
               index={1}
             />
             
