@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-900 text-white py-10">
+    <footer className="bg-white text-gray-700 py-10 border-t border-gray-200">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-6 md:mb-0">
@@ -25,13 +25,13 @@ const Footer = () => {
           
           <div className="mb-6 md:mb-0">
             <nav className="flex space-x-8">
-              <a href="#services" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#services" className="text-gray-600 hover:text-manao-purple transition-colors">
                 Услуги
               </a>
-              <a href="#team" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#team" className="text-gray-600 hover:text-manao-purple transition-colors">
                 Команда
               </a>
-              <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#contact" className="text-gray-600 hover:text-manao-purple transition-colors">
                 Контакты
               </a>
             </nav>
@@ -46,7 +46,7 @@ const Footer = () => {
           </button>
         </div>
         
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
+        <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-600 text-sm">
           <p>© 2023 MANAO DEV. Все права защищены.</p>
           <p className="mt-2">
             Разработка и интеграция сайтов и CRM

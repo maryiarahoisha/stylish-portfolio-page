@@ -11,7 +11,7 @@ interface TeamMemberProps {
   index: number;
 }
 
-const TeamMember = ({ name, nickname, position, imageUrl, email, index }: TeamMemberProps) => {
+const TeamMember = ({ name, position, imageUrl, email, index }: TeamMemberProps) => {
   return (
     <div className={`stagger-animation team-card p-6 flex flex-col items-center text-center`}>
       <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4">
@@ -22,8 +22,7 @@ const TeamMember = ({ name, nickname, position, imageUrl, email, index }: TeamMe
           loading="lazy"
         />
       </div>
-      <p className="text-manao-purple font-medium mt-2">{nickname}</p>
-      <h3 className="text-xl font-bold tracking-tight">{name}</h3>
+      <h3 className="text-xl font-bold tracking-tight mt-2">{name}</h3>
       <p className="text-gray-500 text-sm">{position}</p>
       
       {email && (
@@ -81,7 +80,7 @@ const Team = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <TeamMember
-              nickname="ДИМА"
+              nickname=""
               name="ДМИТРИЙ ГРИНКЕВИЧ"
               position="Основатель, директор"
               imageUrl="/lovable-uploads/bdbbc44f-459a-4f86-8c42-ad23cacbaac0.png"
@@ -89,7 +88,7 @@ const Team = () => {
             />
             
             <TeamMember
-              nickname="САША"
+              nickname=""
               name="АЛЕКСАНДРА ШАРОВА"
               position="Зам. директора по развитию"
               imageUrl="/lovable-uploads/94dec6d6-4f01-4c9d-b5fc-c432dd478c13.png"
@@ -97,7 +96,7 @@ const Team = () => {
             />
             
             <TeamMember
-              nickname="МАША"
+              nickname=""
               name="МАРИЯ САНТАЛОВА"
               position="Маркетолог"
               imageUrl="/lovable-uploads/5a62ebe0-410f-44cd-ae57-f0d4f30662f2.png"
@@ -105,7 +104,7 @@ const Team = () => {
             />
             
             <TeamMember
-              nickname="ПАША"
+              nickname=""
               name="ПАВЕЛ ПЕНКРАТ"
               position="Технический директор"
               imageUrl="/lovable-uploads/f6a1c8cf-0e13-4333-ba82-f494d5f11f95.png"
@@ -114,7 +113,7 @@ const Team = () => {
             />
             
             <TeamMember
-              nickname="ТАНЯ"
+              nickname=""
               name="ТАТЬЯНА ГРЕЧАНИК"
               position="Проектный менеджер"
               imageUrl="/lovable-uploads/86605fab-5224-4e07-a951-670c0b407b32.png"
