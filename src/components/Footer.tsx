@@ -13,14 +13,6 @@ const Footer = () => {
     <footer className="bg-white text-gray-700 py-10 border-t border-gray-200">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center">
-          <div className="text-manao-purple mb-6">
-            <img 
-              src="/lovable-uploads/421f1ff8-620d-4e15-b5cf-1129ef81dcce.png" 
-              alt="MANAO DEV Logo" 
-              className="h-10" 
-            />
-          </div>
-          
           <button
             onClick={scrollToTop}
             className="w-10 h-10 bg-manao-purple/20 hover:bg-manao-purple/30 rounded-full flex items-center justify-center transition-all duration-300 mb-8"
@@ -30,8 +22,8 @@ const Footer = () => {
           </button>
         </div>
         
-        <div className="border-t border-gray-200 mt-4 pt-8 text-center text-gray-600 text-sm">
-          <p>© 2023 MANAO DEV. Все права защищены.</p>
+        <div className="text-center text-gray-600 text-sm">
+          <p>© 2025 MANAO DEV. Все права защищены.</p>
           <p className="mt-2">
             Разработка и интеграция сайтов и CRM
           </p>
