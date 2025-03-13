@@ -92,6 +92,7 @@ const Team = () => {
               name="ДМИТРИЙ ГРИНКЕВИЧ"
               position="Основатель, директор"
               imageUrl="/lovable-uploads/bdbbc44f-459a-4f86-8c42-ad23cacbaac0.png"
+              email="dg@manao-team.com"
               telegramUrl="https://t.me/DmitriyGrinkevich"
               index={0}
             />
@@ -101,6 +102,7 @@ const Team = () => {
               name="АЛЕКСАНДРА ШАРОВА"
               position="Зам. директора по развитию"
               imageUrl="/lovable-uploads/94dec6d6-4f01-4c9d-b5fc-c432dd478c13.png"
+              email="a.sharova@manao-team.com"
               telegramUrl="https://t.me/ManaoConsult"
               index={1}
             />
@@ -110,6 +112,7 @@ const Team = () => {
               name="МАРИЯ САНТАЛОВА"
               position="Маркетолог"
               imageUrl="/lovable-uploads/5a62ebe0-410f-44cd-ae57-f0d4f30662f2.png"
+              email="manao.marketolog@gmail.com"
               telegramUrl="https://t.me/fq_mry"
               index={2}
             />
