@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <div className="flex items-center justify-center mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold font-gilroy">
               СВЯЗАТЬСЯ С MANAO DEV
             </h2>
           </div>
@@ -17,8 +17,8 @@ const Contact = () => {
               <div className="bg-white/10 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                 <Mail size={24} />
               </div>
-              <h3 className="text-lg font-medium mb-2">ПОЧТА</h3>
-              <a href="mailto:INFO@MANAO-TEAM.COM" className="hover:underline transition-all">
+              <h3 className="text-lg font-medium font-gilroy mb-2">ПОЧТА</h3>
+              <a href="mailto:INFO@MANAO-TEAM.COM" className="hover:underline transition-all font-light">
                 INFO@MANAO-TEAM.COM
               </a>
             </div>
@@ -27,8 +27,8 @@ const Contact = () => {
               <div className="bg-white/10 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                 <Phone size={24} />
               </div>
-              <h3 className="text-lg font-medium mb-2">ТЕЛЕФОН</h3>
-              <a href="tel:+375297558771" className="hover:underline transition-all">
+              <h3 className="text-lg font-medium font-gilroy mb-2">ТЕЛЕФОН</h3>
+              <a href="tel:+375297558771" className="hover:underline transition-all font-light">
                 +375 (29) 675-58-71
               </a>
             </div>
@@ -37,7 +37,7 @@ const Contact = () => {
               <div className="bg-white/10 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                 <MessageCircle size={24} />
               </div>
-              <h3 className="text-lg font-medium mb-2">ОНЛАЙН В МЕССЕНДЖЕРАХ</h3>
+              <h3 className="text-lg font-medium font-gilroy mb-2">ОНЛАЙН В МЕССЕНДЖЕРАХ</h3>
               <div className="flex gap-4 mt-2">
                 <a 
                   href="https://api.whatsapp.com/send/?phone=375296755871&text&type=phone_number&app_absent=0" 

@@ -70,8 +70,10 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				display: ['Montserrat', 'sans-serif']
+				sans: ['Roboto', 'sans-serif'],
+				roboto: ['Roboto', 'sans-serif'],
+				gilroy: ['Gilroy', 'sans-serif'],
+				display: ['Gilroy', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -129,3 +131,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
