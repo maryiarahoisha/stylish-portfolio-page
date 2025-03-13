@@ -131,7 +131,7 @@ const Team = () => {
               nickname=""
               name="ТАТЬЯНА ГРЕЧАНИК"
               position="Проектный менеджер"
-              imageUrl="/lovable-uploads/a0e8998d-945d-4bab-a7ac-8a72bf9f8976.png"
+              imageUrl="/lovable-uploads/f2bd9972-1b3f-440c-a190-c1def5065390.png"
               email="t.grechanik@manao-team.com"
               telegramUrl="https://t.me/manaodev_gt"
               index={4}
