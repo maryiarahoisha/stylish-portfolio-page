@@ -1,6 +1,7 @@
 
 import { useEffect, useRef } from "react";
-import { Mail } from "lucide-react";
+import { Mail, Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface TeamMemberProps {
   name: string;
@@ -8,10 +9,11 @@ interface TeamMemberProps {
   position: string;
   imageUrl: string;
   email?: string;
+  telegramUrl?: string;
   index: number;
 }
 
-const TeamMember = ({ name, position, imageUrl, email, index }: TeamMemberProps) => {
+const TeamMember = ({ name, position, imageUrl, email, telegramUrl, index }: TeamMemberProps) => {
   return (
     <div className={`stagger-animation team-card p-6 flex flex-col items-center text-center`}>
       <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4">
@@ -25,17 +27,23 @@ const TeamMember = ({ name, position, imageUrl, email, index }: TeamMemberProps)
       <h3 className="text-xl font-bold tracking-tight mt-2">{name}</h3>
       <p className="text-gray-500 text-sm">{position}</p>
       
-      {email && (
-        <div className="mt-4">
+      <div className="mt-4 flex flex-col items-center gap-2">
+        {email && (
           <p className="text-sm text-gray-600 flex items-center justify-center gap-1">
             <Mail size={14} className="text-manao-purple" />
             {email}
           </p>
-          <button className="button-outline mt-4 text-sm">
-            Связаться
-          </button>
-        </div>
-      )}
+        )}
+        
+        {telegramUrl && (
+          <a href={telegramUrl} target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="sm" className="flex items-center gap-2">
+              <Send size={14} className="text-manao-purple" />
+              Telegram
+            </Button>
+          </a>
+        )}
+      </div>
     </div>
   );
 };
@@ -84,6 +92,7 @@ const Team = () => {
               name="ДМИТРИЙ ГРИНКЕВИЧ"
               position="Основатель, директор"
               imageUrl="/lovable-uploads/bdbbc44f-459a-4f86-8c42-ad23cacbaac0.png"
+              telegramUrl="https://t.me/DmitriyGrinkevich"
               index={0}
             />
             
@@ -92,6 +101,7 @@ const Team = () => {
               name="АЛЕКСАНДРА ШАРОВА"
               position="Зам. директора по развитию"
               imageUrl="/lovable-uploads/94dec6d6-4f01-4c9d-b5fc-c432dd478c13.png"
+              telegramUrl="https://t.me/ManaoConsult"
               index={1}
             />
             
@@ -100,6 +110,7 @@ const Team = () => {
               name="МАРИЯ САНТАЛОВА"
               position="Маркетолог"
               imageUrl="/lovable-uploads/5a62ebe0-410f-44cd-ae57-f0d4f30662f2.png"
+              telegramUrl="https://t.me/fq_mry"
               index={2}
             />
             
@@ -109,6 +120,7 @@ const Team = () => {
               position="Технический директор"
               imageUrl="/lovable-uploads/f6a1c8cf-0e13-4333-ba82-f494d5f11f95.png"
               email="p.penkrat@manao-team.com"
+              telegramUrl="https://t.me/manaodev_tech"
               index={3}
             />
             
@@ -118,6 +130,7 @@ const Team = () => {
               position="Проектный менеджер"
               imageUrl="/lovable-uploads/86605fab-5224-4e07-a951-670c0b407b32.png"
               email="t.grechanik@manao-team.com"
+              telegramUrl="https://t.me/manaodev_gt"
               index={4}
             />
           </div>
