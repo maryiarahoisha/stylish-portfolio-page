@@ -46,16 +46,16 @@ const Services = () => {
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 md:gap-6">
               <div className="partner-card">
-                <img src="https://cdn-ru.bitrix24.ru/b25909916/landing/1f8/1f8c0e3e34c36f5f24a1d4e8c12e6fcc/artox_1x.png" alt="ARTOX" className="h-8 object-contain" />
+                <img src="/lovable-uploads/e2c70d25-6470-4a73-8e8f-1628083d256c.png" alt="ROAST" className="h-8 object-contain" />
               </div>
               <div className="partner-card">
-                <img src="https://cdn-ru.bitrix24.ru/b25909916/landing/c44/c448fb5649a3ef4d76f4f84da4abb3af/sante_1x.png" alt="SANTE" className="h-8 object-contain" />
+                <img src="/lovable-uploads/2781b978-f1a8-440f-b207-5cd21b873011.png" alt="SANTE" className="h-12 object-contain" />
               </div>
               <div className="partner-card">
-                <img src="https://cdn-ru.bitrix24.ru/b25909916/landing/25d/25d9fa0119d6f71d78af93f61c8ffa32/kugel_1x.png" alt="KUGEL" className="h-8 object-contain" />
+                <img src="/lovable-uploads/a12d4da6-f416-4952-9a52-7ac2150a603b.png" alt="MULTISPORT" className="h-8 object-contain" />
               </div>
               <div className="partner-card">
-                <img src="https://cdn-ru.bitrix24.ru/b25909916/landing/c2c/c2cf5f9be1eb9bbbee2f663a17b41a23/multisport_1x.png" alt="MULTISPORT" className="h-8 object-contain" />
+                <img src="/lovable-uploads/2e008d93-76c0-4048-91de-c437ccc0c915.png" alt="WINTERS.BY" className="h-12 object-contain" />
               </div>
               <div className="partner-card">
                 <img src="https://cdn-ru.bitrix24.ru/b25909916/landing/37c/37c4b69a2797c8ef8ee9de6ef1a52aea/xistore_1x.png" alt="XISTORE" className="h-8 object-contain" />
