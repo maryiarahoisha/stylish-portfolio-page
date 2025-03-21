@@ -78,15 +78,7 @@ const Team = () => {
     <section id="team" className="py-12 bg-gray-50" ref={sectionRef}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            Контакты команды
-          </h2>
-          
-          <p className="text-center text-gray-600 max-w-3xl mx-auto mb-10">
-            Здесь размещены контакты тех, с кем вы могли бы общаться. Можете связаться с конкретным человеком или обратиться напрямую в компанию.
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TeamMember
               nickname=""
               name="ДМИТРИЙ ГРИНКЕВИЧ"
