@@ -132,7 +132,7 @@ const Team = () => {
             <TeamMember
               nickname=""
               name="ЕЛЕНА СТРАХ"
-              position="HR/Афчар"
+              position="HR-менеджер"
               imageUrl="/lovable-uploads/51edfe05-bc3a-445e-ba55-c82bb8f79580.png"
               email="e.strakh@manao-team.com"
               telegramUrl="https://t.me/hrmanao"
