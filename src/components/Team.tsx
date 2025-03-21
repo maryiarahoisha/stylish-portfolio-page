@@ -75,7 +75,7 @@ const Team = () => {
   }, []);
 
   return (
-    <section id="team" className="py-12 bg-gray-50" ref={sectionRef}>
+    <section id="team" className="pt-4 pb-12 bg-gray-50" ref={sectionRef}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
