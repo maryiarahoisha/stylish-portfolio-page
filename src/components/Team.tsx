@@ -136,6 +136,16 @@ const Team = () => {
               telegramUrl="https://t.me/manaodev_gt"
               index={4}
             />
+            
+            <TeamMember
+              nickname=""
+              name="ЕЛЕНА СТРАХ"
+              position="HR/Афчар"
+              imageUrl="/lovable-uploads/51edfe05-bc3a-445e-ba55-c82bb8f79580.png"
+              email="e.strakh@manao-team.com"
+              telegramUrl="https://t.me/hrmanao"
+              index={5}
+            />
           </div>
         </div>
       </div>
