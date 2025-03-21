@@ -31,17 +31,8 @@ const Index = () => {
               
               <div className={`transition-all duration-700 delay-300 ${isLoaded ? 'opacity-100' : 'opacity-0 translate-y-12'}`}>
                 <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                  Улучшаем Битрикс24, разрабатываем и дорабатываем сайты на 1С-Битрикс, создаем сложные B2B-решения на фреймворках.
+                  Здесь размещены контакты тех, с кем вы могли бы общаться. Можете связаться с конкретным человеком или обратиться напрямую в компанию.
                 </p>
-              </div>
-              
-              <div className={`mt-10 flex flex-col md:flex-row gap-4 justify-center transition-all duration-700 delay-500 ${isLoaded ? 'opacity-100' : 'opacity-0 translate-y-12'}`}>
-                <a href="#contact" className="button-primary">
-                  Связаться с нами
-                </a>
-                <a href="#services" className="button-outline">
-                  Узнать больше
-                </a>
               </div>
             </div>
           </div>
